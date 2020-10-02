@@ -24,7 +24,13 @@ img {
 }
 
 .title {
-    font-size: 4.5em;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.775);
+    font-size: 4.4em;
+    font-weight: 700;
+    color: #333;
+}
+
+.text {
+    font-size: 23px;
+    color: #4F4F4F;
+    margin-top: 20px;
 }
