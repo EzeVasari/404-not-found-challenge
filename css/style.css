@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Mono&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +9,8 @@
 
 body {
     margin: 1% 5%;
+    min-height: 100%;
+    position: absolute;
 }
 
 header {
@@ -35,15 +37,48 @@ img {
     margin-top: 20px;
 }
 
-main div {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .button {
     font-weight: 600;
     padding: 24px 45px;
     background-color: #333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
     color: #FFF;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+@media (min-width: 900px){
+    main {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    .button {
+        margin-top: 70px;
+        width: 40%;
+    }
 }
