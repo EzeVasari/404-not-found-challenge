@@ -22,3 +22,9 @@ img {
     margin-top: 35px;
     padding: 30px;
 }
+
+.title {
+    font-size: 4.5em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.775);
+}
