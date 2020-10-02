@@ -16,3 +16,9 @@ header {
    font-size: 1.2em;
    font-weight: 600;
 }
+
+img {
+    width: 100%;
+    margin-top: 35px;
+    padding: 30px;
+}
